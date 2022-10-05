@@ -21,7 +21,6 @@
     "plugins": ["react", "react-hooks", "@typescript-eslint", "prettier"],
     "rules": {
 		"no-param-reassign": 0,
-        "@typescript-eslint/no-explicit-any": ["off"],
 		"prettier/prettier": ["error", { "endOfLine": "auto" }],
 		"no-use-before-define": [
 			"error",
@@ -31,6 +30,7 @@
 		"no-console": "warn",
 		"arrow-parens": ["error", "always"],
 		"react/jsx-props-no-spreading": "off",
+        "@typescript-eslint/no-explicit-any": ["off"],
 		"jsx-a11y/anchor-is-valid": "off",
 		"global-require": "off",
 		"import/prefer-default-export": "off",

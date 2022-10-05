@@ -1,4 +1,6 @@
-. "$(dirname -- "$0")/_/husky.sh"
- 
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
 echo '🏗️👷 Testando e construindo seu projeto'
-npx --no-install lint-staged
+npm run lint
+npx lint-staged

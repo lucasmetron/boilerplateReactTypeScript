@@ -1,15 +1,11 @@
 import React from 'react';
 import * as S from './styles';
 
-const Teste1 = () => {
+export default function Teste1() {
 	return (
 		<S.container>
 			<h1>teste</h1>
-			<h1>teste</h1>
-			2556
-			<p> lcuas</p>
+			<p>lucas</p>
 		</S.container>
 	);
-};
-
-export default Teste1;
+}

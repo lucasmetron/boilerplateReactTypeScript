@@ -6,6 +6,8 @@ const Teste1 = () => {
 		<S.container>
 			<h1>teste</h1>
 			<h1>teste</h1>
+			2556
+			<p> lcuas</p>
 		</S.container>
 	);
 };

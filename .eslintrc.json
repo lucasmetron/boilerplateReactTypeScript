@@ -21,6 +21,7 @@
     "plugins": ["react", "react-hooks", "@typescript-eslint", "prettier"],
     "rules": {
 		"no-param-reassign": 0,
+        "@typescript-eslint/no-explicit-any": ["off"],
 		"prettier/prettier": ["error", { "endOfLine": "auto" }],
 		"no-use-before-define": [
 			"error",

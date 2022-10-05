@@ -1,4 +1,5 @@
 import React from 'react';
+import Button from './components/Button';
 import Teste1 from './components/Teste1';
 import Teste2 from './components/Teste2';
 import Teste3 from './components/Teste3';
@@ -11,6 +12,7 @@ function App() {
 			<Teste2 />
 			<Teste3 />
 			<Teste4 />
+			<Button />
 		</div>
 	);
 }

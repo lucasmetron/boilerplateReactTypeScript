@@ -1,10 +1,10 @@
 import React from 'react';
 import * as S from './styles';
 
-export default function Lucas() {
+export default function AreaLogada() {
 	return (
 		<S.container>
-			<h1>Lucas132132132</h1>
+			<h1>AreaLogada</h1>
 		</S.container>
 	);
 }

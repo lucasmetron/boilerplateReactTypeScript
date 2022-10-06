@@ -1,10 +1,10 @@
 import React from 'react';
 import * as S from './styles';
 
-export default function Camila() {
+export default function Login() {
 	return (
 		<S.container>
-			<h1>Camila</h1>
+			<h1>Login</h1>
 		</S.container>
 	);
 }

@@ -1,10 +1,10 @@
 import React from 'react';
 import * as S from './styles';
 
-export default function Lais() {
+export default function PageNotFound() {
 	return (
 		<S.container>
-			<h1>Lais</h1>
+			<h1>PageNotFound</h1>
 		</S.container>
 	);
 }
